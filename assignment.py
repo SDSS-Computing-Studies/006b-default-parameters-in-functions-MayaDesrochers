@@ -21,7 +21,7 @@ def factorPair(a,b):
 def cosineLaw(side1,side2,angle, side3="oppositeSide"):
     a=side1
     b=side2
- 
+    radians=toRadians(angle)
     side3= math.sqrt((a**2)+(b**2)-((2*a*b)*math.cos(radians)))
 
     return side3
