@@ -18,7 +18,7 @@ def factorPair(a,b):
     
     return factor_list
 
-def cosineLaw(side1,side2,angle, side3="oppositeSide"):
+def cosineLaw(side1,side2,angle, oppositeSide="True"):
     a=side1
     b=side2
     radians=toRadians(angle)
